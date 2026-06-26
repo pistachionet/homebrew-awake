@@ -1,6 +1,6 @@
 cask "awake" do
-  version "1.0.0"
-  sha256 "cb197c74e44c21958e7b9c7de5432ab048c0203ca6c7f6cd3220118c0386b31d"
+  version "1.0.1"
+  sha256 "3fd0f5942a22f8218246c5201b9deec12cdc55155275b6fbab0e0dbee9edb89b"
 
   url "https://github.com/pistachionet/awake/releases/download/v#{version}/Awake-#{version}.zip",
       verified: "github.com/pistachionet/awake/"
@@ -13,7 +13,7 @@ cask "awake" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Awake.app"
 
