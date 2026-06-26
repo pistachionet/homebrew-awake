@@ -1,6 +1,6 @@
 cask "awake" do
   version "1.0.0"
-  sha256 "REPLACE_WITH_SHA256_OF_THE_ZIP"   # printed by scripts/package.sh
+  sha256 "cb197c74e44c21958e7b9c7de5432ab048c0203ca6c7f6cd3220118c0386b31d"
 
   url "https://github.com/pistachionet/awake/releases/download/v#{version}/Awake-#{version}.zip",
       verified: "github.com/pistachionet/awake/"
