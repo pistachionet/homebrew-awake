@@ -6,14 +6,15 @@ bar app that keeps a MacBook awake while the lid is closed.
 ## Install
 
 ```sh
+brew tap pistachionet/awake
 brew install --cask pistachionet/awake/awake
 ```
 
 This installs the signed and notarized build from Awake's GitHub releases.
 
-## Manual Tap
+## Short Install Name
 
-If you prefer to add the tap first:
+If you want to use the shorter cask name, trust the tap first:
 
 ```sh
 brew tap pistachionet/awake
@@ -21,8 +22,8 @@ brew trust pistachionet/awake
 brew install --cask awake
 ```
 
-The one-line install command above is recommended because it names the exact tap
-and cask directly.
+The fully-qualified cask name above is recommended because it names the exact tap
+and cask directly without requiring `brew trust`.
 
 ## Uninstall
 
